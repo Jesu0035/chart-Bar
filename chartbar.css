@@ -1,0 +1,30 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100%;
+}
+main {
+  height: 640px;
+  background: rgb(77, 74, 74);
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  column-gap: 1px;
+  position: relative;
+  align-self: end;
+}
+.bar {
+  align-self: baseline;
+  height: 6.4;
+  background: darkblue;
+}
+span {
+  position: absolute;
+  color: 0;
+  opacity: 0;
+}
+.counter {
+  color: black;
+}
